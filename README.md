@@ -1,19 +1,9 @@
-## Getting Started
-
-This repository includes files with plain SQL that can be used to recreate a database:
-
-- [Schema.sql](./schema.sql) to creates all tables.
-- [Data.sql](./data.sql) to populate tables with sample data.
-- Check [queries.sql](./queries.sql) for examples of queries that can be run on a newly created database. **Important note: this file might include queries that make changes in the database (e.g., remove records). Use them responsibly!**
-
-<a name="readme-top"></a>
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 Vet Clinic Database ](#-vet-clinic-database-)
+- [📖 MyEnumerable ](#-myenumerable-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -21,7 +11,6 @@ This repository includes files with plain SQL that can be used to recreate a dat
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
-    - [Install](#install)
   - [👥 Authors ](#-authors-)
   - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
@@ -40,9 +29,9 @@ This repository includes files with plain SQL that can be used to recreate a dat
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
-<summary>Database</summary>
+<summary>Server</summary>
   <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li><a href="https://guides.rubyonrails.org/getting_started.html">Ruby</a></li>
   </ul>
 </details>
 
@@ -50,7 +39,9 @@ This repository includes files with plain SQL that can be used to recreate a dat
 
 ### Key Features <a name="key-features"></a>
 
--
+- **Any enumerable**
+- **All enumerable**
+- **Filter enumerable**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -68,10 +59,11 @@ This repository includes files with plain SQL that can be used to recreate a dat
 
 To get a local copy up and running, follow these steps:
 
+To get a local copy up and running, follow these steps:
 - Create a local directory where you can clone the project
 - Clone the project to your directory by running
-  - `git clone https://github.com/leehaney254/vet-clinic.git`
-- Run all the command in the terminal or pgAdmin.
+  - `https://github.com/houdamzari/enumerables.git`
+- Run the code with ruby
 
 ### Prerequisites
 
@@ -79,7 +71,7 @@ In order to run this project you need:
 
 - Git and GitHub
 - A code editor
-- PostgresSQL
+- Ruby
 
 ### Setup
 
@@ -87,13 +79,7 @@ Clone this repository to your desired folder:
 
 - Create a local directory where you can clone the project
 - Clone the project to your directory by running
-  - `git clone https://github.com/leehaney254/vet-clinic.git`
-
-### Install
-
-Install this project with:
-
-- PostgresSQL.
+  - `https://github.com/houdamzari/enumerables.git`
 
 ## 👥 Authors <a name="authors"></a>
 
@@ -115,7 +101,7 @@ Install this project with:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ]
+- [ ] **More enumarable features**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
